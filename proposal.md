@@ -4,7 +4,7 @@ Created by Aaron Castillo and Cris Martinez.
 
 ## 🚀 Mission statement
 
-Our application, Wander Wheels is for people wanting a new found sense of exploration. It allows users to input two locations, a start and end destination, where they get drawn a rotue to which to go on, but there will be detours to give that authentic road trip experience.
+Our application, Wander Wheels is for people wanting a new found sense of exploration. It allows users to input two locations, a start and end destination, where they get drawn a rotue to which to go on along with alternative routes to their destination.
 
 ## API
 
@@ -13,10 +13,10 @@ This application will use the Map Quest API. Below are the documentation and spe
 - Link to API documentation: [Api](https://developer.mapquest.com/documentation/searchahead-api/)
 - API endpoint #1
   - https://www.mapquestapi.com/directions/v2/route?key=KEY&from=Clarendon_Blvd,Arlington,VA&to=2400+S+Glebe+Rd,+Arlington,+VA
-- [API endpoint #2 - “https://www.mapquestapi.com/directions/v2/alternateroutes?key=KEY&from=Denver,CO&to=Golden,CO&maxRoutes=2&timeOverage=100”]
+- [API endpoint #2] - “https://www.mapquestapi.com/directions/v2/alternateroutes?key=KEY&from=Denver,CO&to=Golden,CO&maxRoutes=2&timeOverage=100”
   - Destination address
-- [API endpoint #3 - "https://www.mapquestapi.com/directions/v2/route?key=KEY&from=Clarendon_Blvd,Arlington,VA&to=2400+S+Glebe+Rd,+Arlington,+VA"]
-  -
+- [API endpoint #3] - "https://www.mapquestapi.com/search/v4/place"
+  - Search for POIs, center, radius, querey
 
 **The API requires a key**
 
@@ -46,9 +46,7 @@ To ensure that we can complete all core features of the application in 1 week, w
 **Day 1**
 
 - [ ] A vite project made with react
-- [ ] A color pallet is decide
 - [ ] All components and overall layout complete
-- [ ] A mood board for inspiration is used
 
 **Day 2**
 
@@ -62,6 +60,8 @@ To ensure that we can complete all core features of the application in 1 week, w
 - [ ] Render route to page
 - [ ] Render POIs to page
 - [ ] Work on algorithm to implement other landmarks and attractions along the route
+- [ ] A color pallet is decide
+- [ ] A mood board for inspiration is used
 
 **Day 4**
 
